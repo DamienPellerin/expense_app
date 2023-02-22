@@ -8,7 +8,6 @@ import { Logo } from "components/Logo/Logo";
 
 export function App() {
   const expenseList = useSelector((store) => store.EXPENSE.expenseList);
-  console.log("toto", expenseList);
   return (
     <div className={s.main_container}>
       <div className={`row ${s.header}`}>
